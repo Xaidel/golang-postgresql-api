@@ -2,7 +2,7 @@ version: '3'
 services:
   sampledb:
     image: postgres:latest
-    container_name: postgres
+    container_name: sampledb
     ports:
       - '6500:5432'
     volumes:
