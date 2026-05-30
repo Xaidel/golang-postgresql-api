@@ -1,6 +1,6 @@
 version: '3'
 services:
-  postgres:
+  sampledb:
     image: postgres:latest
     container_name: postgres
     ports:
